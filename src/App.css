@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: row;
 }
 
 .App-logo {
@@ -32,7 +34,81 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
+  }
+}
+
+@font-face {
+  font-family: "Open-Sans";
+  src: local("Open-Sans"), url("assets/fonts/Open_Sans/OpenSans-Regular.ttf")
+}
+
+@font-face {
+  font-family: "Open-Sans";
+  font-weight: 600;
+  src: local("Open-Sans"), url("assets/fonts/Open_Sans/OpenSans-SemiBold.ttf")
+}
+
+
+@font-face {
+  font-family: "Open-Sans";
+  src: local("Open-Sans"), url("./assets/fonts/Open_Sans/OpenSans-Regular.ttf")
+}
+
+body {
+  font-family: "Open-Sans";
+}
+
+.cursor {
+  border-right: 0.1em solid orange;
+}
+
+.cursor-blink {
+  animation: blink-caret infinite .8s step-end;
+}
+
+.hero {
+  display: flex;
+  width: 40%;
+}
+
+/* Portrait and Landscape */
+@media only screen and (max-width: 1024px) {
+  .App {
+    flex-direction: column;
+  }
+
+  .hero {
+    width: 100%;
+  }
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 2;
+}
+
+.info-panel {
+  background-color: #eee;
+  width: 85%;
+  border-radius: 2px;
+  height: 50%;
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+  from,
+  to {
+    border-color: transparent
+  }
+
+  50% {
+    border-color: orange;
   }
 }

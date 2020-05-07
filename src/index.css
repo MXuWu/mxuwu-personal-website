@@ -1,13 +1,48 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@font-face {
+  font-family: "Roboto-Slab";
+  src: local("Open-Sans"),
+    url("assets/fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf");
+  font-weight: 1 999;
+}
+
+@font-face {
+  font-family: "Alatsi";
+  src: local("Alatsi"), url("assets/fonts/Alatsi/Alatsi-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Open-Sans";
+  src: local("Open-Sans"), url("assets/fonts/Open_Sans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Open-Sans";
+  font-weight: 600;
+  src: local("Open-Sans"), url("assets/fonts/Open_Sans/OpenSans-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Open-Sans";
+  src: local("Open-Sans"), url("./assets/fonts/Open_Sans/OpenSans-Regular.ttf");
+}
+
+@media (prefers-color-scheme: dark) {
+  .info {
+    background-color: var(--bg-gray);
+    color: white;
+  }
 }

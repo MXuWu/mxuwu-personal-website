@@ -1,13 +1,16 @@
 import React, { useState, useEffect } from "react";
-import logo from "./logo.svg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import "./App.css";
 
 function App() {
   const [text, updateText] = useState("");
   const [ind, updateInd] = useState(0);
   const [cursorClass, updateCursorClass] = useState("");
-  const name = "Michael Wu\nProgrammer\nArtistic Savant";
-
+  const name =
+    "Sydney\nProgrammer\nArtistic Savant\nFrontend Software Developer";
+  const socialsColour = "#ddd";
   function writeText(fullStr: string) {
     updateText((text) => {
       if (ind < fullStr.length) {
@@ -20,25 +23,69 @@ function App() {
 
   useEffect(() => {
     console.log("effect", ind);
-    setTimeout(() => writeText(name), 100);
+    setTimeout(() => writeText(name), 75);
   });
 
   useEffect(() => {
     if (text === name) updateCursorClass("cursor-blink");
   }, [text]);
+
   return (
-    <div className="App">
-      <header className="App-header hero">
-        <pre style={{ fontWeight: 600 }}>
-          {text}
-          <span className={`cursor ${cursorClass}`}></span>
-        </pre>
-      </header>
-      <div className="info">
-        <div className="info-panel">
-          <div>Contact</div>
-          <div>Mail Github LinkedIn</div>
+    <div className="App flex">
+      <header className="App-header hero flex">
+        <div className="title flex column">
+          <div className="header-container">
+            <h2 className="header" style={{ fontWeight: 600 }}>
+              Michael Xu Wu
+            </h2>
+            <div className="fade-in sub-header">Hello!</div>
+          </div>
         </div>
+        <div className="socials" style={{ justifySelf: "flex-end" }}>
+          <a href={`mailto:xu.michael.wu@gmail.com`}>
+            <FontAwesomeIcon
+              className="icon"
+              icon={faEnvelope}
+              color={socialsColour}
+              size="2x"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/xu-michael-wu/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <FontAwesomeIcon
+              className="icon"
+              icon={faLinkedin}
+              color={socialsColour}
+              size="2x"
+            />
+          </a>
+          <a
+            href="https://github.com/MXuWu"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <FontAwesomeIcon
+              className="icon"
+              icon={faGithub}
+              color={socialsColour}
+              size="2x"
+            />
+          </a>
+        </div>
+      </header>
+      <div className="info flex column">
+        <div style={{ alignSelf: "flex-start" }}>
+          <pre>
+            {text}
+            <span className={`cursor ${cursorClass}`}></span>
+          </pre>
+        </div>
+        <button className="button">
+          <pre>About</pre>
+        </button>
       </div>
     </div>
   );

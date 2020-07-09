@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:export-ydpi="96"
+   inkscape:export-xdpi="96"
+   inkscape:export-filename="/Users/l131597/Documents/Misc/personal-website/src/assets/img/mw_bw.png"
+   sodipodi:docname="mw.svg"
+   inkscape:version="1.0rc1 (09960d6, 2020-04-09)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 210 297"
+   height="297mm"
+   width="210mm">
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient988"
+       inkscape:collect="always">
+      <stop
+         id="stop984"
+         offset="0"
+         style="stop-color:#222222;stop-opacity:1;" />
+      <stop
+         id="stop986"
+         offset="1"
+         style="stop-color:#222222;stop-opacity:0;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient876-1"
+       inkscape:collect="always">
+      <stop
+         id="stop872"
+         offset="0"
+         style="stop-color:#2e2e2e;stop-opacity:1;" />
+      <stop
+         style="stop-color:#222222;stop-opacity:0.85964912"
+         offset="0.5"
+         id="stop887" />
+      <stop
+         id="stop874"
+         offset="1"
+         style="stop-color:#2e2e2e;stop-opacity:0.7368421" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="translate(18.259035,5.775901)"
+       y2="125.92924"
+       x2="151.92572"
+       y1="236.03491"
+       x1="45.671524"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient885"
+       xlink:href="#linearGradient876-1"
+       inkscape:collect="always" />
+    <clipPath
+       id="clipPath898"
+       clipPathUnits="userSpaceOnUse">
+      <g
+         inkscape:label="Clip"
+         id="use900"
+         style="fill:#ffffff;fill-opacity:1;stroke-width:0.79375;stroke-miterlimit:4;stroke-dasharray:none">
+        <text
+           id="text962"
+           y="86.963814"
+           x="59.995712"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.79375;stroke-miterlimit:4;stroke-dasharray:none"
+           xml:space="preserve"><tspan
+             id="tspan960"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.3333px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.79375;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             y="86.963814"
+             x="59.995712"
+             sodipodi:role="line"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.3333px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.79375;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               id="tspan958"
+               dy="0">M</tspan></tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.79375;stroke-miterlimit:4;stroke-dasharray:none"
+           x="74.925781"
+           y="120.55673"
+           id="text966"><tspan
+             sodipodi:role="line"
+             x="74.925781"
+             y="120.55673"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.3333px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.79375;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="tspan964">W</tspan></text>
+      </g>
+    </clipPath>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="70.133487"
+       x2="98.699474"
+       y1="70.133487"
+       x1="36.257349"
+       id="linearGradient990"
+       xlink:href="#linearGradient988"
+       inkscape:collect="always" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="250"
+     inkscape:window-x="0"
+     inkscape:window-height="939"
+     inkscape:window-width="1680"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="619.24508"
+     inkscape:cx="248.03865"
+     inkscape:zoom="0.50766189"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <text
+       id="text843"
+       y="98.437653"
+       x="103.31519"
+       style="font-style:normal;font-weight:normal;font-size:10.58329999999999949px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.79375;stroke-miterlimit:4;stroke-dasharray:none"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.79375;stroke-miterlimit:4;stroke-dasharray:none"
+         y="98.437653"
+         x="103.31519"
+         id="tspan841"
+         sodipodi:role="line"></tspan></text>
+    <rect
+       ry="1.1339353"
+       y="131.70514"
+       x="50.184769"
+       height="120"
+       width="120"
+       id="rect870"
+       style="fill:url(#linearGradient885);fill-opacity:1;stroke:none;stroke-width:0.79375;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <g
+       transform="matrix(1.3909769,0,0,1.4361958,17.32476,90.811106)"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.187196;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="g974">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45.5083px;line-height:1.25;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.187196;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="33.908005"
+         y="69.980347"
+         id="text938"><tspan
+           sodipodi:role="line"
+           id="tspan936"
+           x="33.908005"
+           y="69.980347"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45.5083px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.187196;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">M</tspan></text>
+      <text
+         id="text938-3"
+         y="104.97337"
+         x="50.029747"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45.5083px;line-height:1.25;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.187196;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45.5083px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.187196;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           y="104.97337"
+           x="50.029747"
+           id="tspan936-0"
+           sodipodi:role="line">W</tspan></text>
+    </g>
+  </g>
+</svg>

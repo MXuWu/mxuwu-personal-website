@@ -35,10 +35,10 @@ function App() {
       <header className="App-header hero flex">
         <div className="title flex column">
           <div className="header-container">
-            <h2 className="header" style={{ fontWeight: 600 }}>
+            <div className="fade-in sub-header">hello! this is</div>
+            <h2 className="header" style={{ fontWeight: 500 }}>
               Michael Xu Wu
             </h2>
-            <div className="fade-in sub-header">Hello!</div>
           </div>
         </div>
         <div className="socials" style={{ justifySelf: "flex-end" }}>

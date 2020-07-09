@@ -1,7 +1,7 @@
 :root {
   --bg-gray: #191a1d;
   --m-orange: rgb(238, 156, 3);
-  --m-pink: rgb(255, 64, 143);
+  --m-pink: rgb(255, 45, 133);
 }
 
 ::selection {
@@ -23,7 +23,7 @@
 }
 
 body {
-  font-family: "Open-Sans";
+  font-family: "Futura";
 }
 
 pre {
@@ -46,7 +46,6 @@ pre {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  font-family: Roboto-slab;
 }
 
 .button {
